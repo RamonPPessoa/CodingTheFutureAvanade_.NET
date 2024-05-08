@@ -3,13 +3,27 @@
 
 
 
-DateTime dataAtual = DateTime.Now;
+// Cast - casting
 
-System.Console.WriteLine(dataAtual);
+int a = Convert.ToInt32("5");
+System.Console.WriteLine(a);
 
-DateTime dataAtua2 = DateTime.Now.AddDays(2);
-System.Console.WriteLine(dataAtua2);
-System.Console.WriteLine(dataAtua2.ToString("dd/MM/yyyy HH:mmgit commit "));
+int b = int.Parse("6");
+System.Console.WriteLine(b);
+
+
+
+
+
+
+
+// DateTime dataAtual = DateTime.Now;
+
+// System.Console.WriteLine(dataAtual);
+
+// DateTime dataAtua2 = DateTime.Now.AddDays(2);
+// System.Console.WriteLine(dataAtua2);
+// System.Console.WriteLine(dataAtua2.ToString("dd/MM/yyyy HH:mmgit commit "));
 
 
 
