@@ -1,15 +1,20 @@
 ﻿using ExemploFundamentos.Models;
 
 
+//Conversão para string
 
+int inteiro= 5;
+string a = inteiro.ToString();
+
+Console.WriteLine(a);
 
 // Cast - casting
 
-int a = Convert.ToInt32("5");
-System.Console.WriteLine(a);
+// int a = Convert.ToInt32("5");
+// System.Console.WriteLine(a);
 
-int b = int.Parse("6");
-System.Console.WriteLine(b);
+// int b = int.Parse("6");
+// System.Console.WriteLine(b);
 
 
 
