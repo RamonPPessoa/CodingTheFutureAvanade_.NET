@@ -1,12 +1,21 @@
 ﻿using ExemploFundamentos.Models;
 
+// Conversão de maneira segura
+string a = "17-";
+
+int b = 0;
+
+int.TryParse(a,out b);
+System.Console.WriteLine(b);
+System.Console.WriteLine("Conversão realizada com sucesso");
+
 
 //Conversão para string
 
-int inteiro= 5;
-string a = inteiro.ToString();
+// int inteiro= 5;
+// string a = inteiro.ToString();
 
-Console.WriteLine(a);
+// Console.WriteLine(a);
 
 // Cast - casting
 
